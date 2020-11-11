@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB9445C2556D85A001405AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9445B2556D85A001405AF /* AppDelegate.swift */; };
+		ABB9445E2556D85A001405AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9445D2556D85A001405AF /* SceneDelegate.swift */; };
+		ABB944602556D85A001405AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9445F2556D85A001405AF /* ViewController.swift */; };
+		ABB944632556D85A001405AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB944612556D85A001405AF /* Main.storyboard */; };
+		ABB944682556D861001405AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB944662556D861001405AF /* LaunchScreen.storyboard */; };
+		ABB944722556D98B001405AF /* GalleryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB944712556D98B001405AF /* GalleryCollectionView.swift */; };
+		ABB944782556DA93001405AF /* PlankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB944772556DA93001405AF /* PlankModel.swift */; };
+		ABB9447D2556DCA0001405AF /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9447C2556DCA0001405AF /* GalleryCollectionViewCell.swift */; };
+		ABB9447F25580E2E001405AF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9447E25580E2E001405AF /* DetailViewController.swift */; };
+		ABB9448125580E80001405AF /* DetailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9448025580E80001405AF /* DetailCollectionView.swift */; };
+		ABB9448325580EC9001405AF /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9448225580EC9001405AF /* DetailCollectionViewCell.swift */; };
+		ABB9448625581F09001405AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB9448525581F09001405AF /* Assets.xcassets */; };
+		ABB9448A255830AB001405AF /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB94489255830AB001405AF /* DetailModel.swift */; };
+		ABB9448C2559362E001405AF /* DImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9448B2559362E001405AF /* DImage.swift */; };
+		ABB9448E25594992001405AF /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9448D25594992001405AF /* UIButton + Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABB944582556D85A001405AF /* DailyPlank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPlank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB9445B2556D85A001405AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABB9445D2556D85A001405AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABB9445F2556D85A001405AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABB944622556D85A001405AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB944672556D861001405AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABB944692556D861001405AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB944712556D98B001405AF /* GalleryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionView.swift; sourceTree = "<group>"; };
+		ABB944772556DA93001405AF /* PlankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankModel.swift; sourceTree = "<group>"; };
+		ABB9447C2556DCA0001405AF /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		ABB9447E25580E2E001405AF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ABB9448025580E80001405AF /* DetailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionView.swift; sourceTree = "<group>"; };
+		ABB9448225580EC9001405AF /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		ABB9448525581F09001405AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB94489255830AB001405AF /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		ABB9448B2559362E001405AF /* DImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DImage.swift; sourceTree = "<group>"; };
+		ABB9448D25594992001405AF /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB944552556D85A001405AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB9444F2556D859001405AF = {
+			isa = PBXGroup;
+			children = (
+				ABB9445A2556D85A001405AF /* DailyPlank */,
+				ABB944592556D85A001405AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB944592556D85A001405AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB944582556D85A001405AF /* DailyPlank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB9445A2556D85A001405AF /* DailyPlank */ = {
+			isa = PBXGroup;
+			children = (
+				ABB9445B2556D85A001405AF /* AppDelegate.swift */,
+				ABB9445D2556D85A001405AF /* SceneDelegate.swift */,
+				ABB944752556DA6B001405AF /* Views */,
+				ABB944762556DA70001405AF /* Controllers */,
+				ABB944612556D85A001405AF /* Main.storyboard */,
+				ABB9448425580EE0001405AF /* CustomCells */,
+				ABB9448F2559499F001405AF /* Extensions */,
+				ABB9447B2556DBBF001405AF /* Models */,
+				ABB944662556D861001405AF /* LaunchScreen.storyboard */,
+				ABB9448525581F09001405AF /* Assets.xcassets */,
+				ABB944692556D861001405AF /* Info.plist */,
+			);
+			path = DailyPlank;
+			sourceTree = "<group>";
+		};
+		ABB944752556DA6B001405AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABB944712556D98B001405AF /* GalleryCollectionView.swift */,
+				ABB9448025580E80001405AF /* DetailCollectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ABB944762556DA70001405AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABB9447E25580E2E001405AF /* DetailViewController.swift */,
+				ABB9445F2556D85A001405AF /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ABB9447B2556DBBF001405AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABB94489255830AB001405AF /* DetailModel.swift */,
+				ABB944772556DA93001405AF /* PlankModel.swift */,
+				ABB9448B2559362E001405AF /* DImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABB9448425580EE0001405AF /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				ABB9448225580EC9001405AF /* DetailCollectionViewCell.swift */,
+				ABB9447C2556DCA0001405AF /* GalleryCollectionViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		ABB9448F2559499F001405AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ABB9448D25594992001405AF /* UIButton + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB944572556D85A001405AF /* DailyPlank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB9446C2556D861001405AF /* Build configuration list for PBXNativeTarget "DailyPlank" */;
+			buildPhases = (
+				ABB944542556D85A001405AF /* Sources */,
+				ABB944552556D85A001405AF /* Frameworks */,
+				ABB944562556D85A001405AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyPlank;
+			productName = DailyPlank;
+			productReference = ABB944582556D85A001405AF /* DailyPlank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB944502556D859001405AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Владислав Никольский";
+				TargetAttributes = {
+					ABB944572556D85A001405AF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = ABB944532556D859001405AF /* Build configuration list for PBXProject "DailyPlank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB9444F2556D859001405AF;
+			productRefGroup = ABB944592556D85A001405AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB944572556D85A001405AF /* DailyPlank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB944562556D85A001405AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB944682556D861001405AF /* LaunchScreen.storyboard in Resources */,
+				ABB9448625581F09001405AF /* Assets.xcassets in Resources */,
+				ABB944632556D85A001405AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB944542556D85A001405AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB9448C2559362E001405AF /* DImage.swift in Sources */,
+				ABB9448A255830AB001405AF /* DetailModel.swift in Sources */,
+				ABB944602556D85A001405AF /* ViewController.swift in Sources */,
+				ABB9447D2556DCA0001405AF /* GalleryCollectionViewCell.swift in Sources */,
+				ABB9445C2556D85A001405AF /* AppDelegate.swift in Sources */,
+				ABB944722556D98B001405AF /* GalleryCollectionView.swift in Sources */,
+				ABB9445E2556D85A001405AF /* SceneDelegate.swift in Sources */,
+				ABB944782556DA93001405AF /* PlankModel.swift in Sources */,
+				ABB9447F25580E2E001405AF /* DetailViewController.swift in Sources */,
+				ABB9448125580E80001405AF /* DetailCollectionView.swift in Sources */,
+				ABB9448325580EC9001405AF /* DetailCollectionViewCell.swift in Sources */,
+				ABB9448E25594992001405AF /* UIButton + Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB944612556D85A001405AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB944622556D85A001405AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB944662556D861001405AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB944672556D861001405AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB9446A2556D861001405AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABB9446B2556D861001405AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB9446D2556D861001405AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59F5MHJSYJ;
+				INFOPLIST_FILE = DailyPlank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vnikolsky.DailyPlank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB9446E2556D861001405AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59F5MHJSYJ;
+				INFOPLIST_FILE = DailyPlank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vnikolsky.DailyPlank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB944532556D859001405AF /* Build configuration list for PBXProject "DailyPlank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB9446A2556D861001405AF /* Debug */,
+				ABB9446B2556D861001405AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB9446C2556D861001405AF /* Build configuration list for PBXNativeTarget "DailyPlank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB9446D2556D861001405AF /* Debug */,
+				ABB9446E2556D861001405AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB944502556D859001405AF /* Project object */;
+}
